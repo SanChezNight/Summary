@@ -1,0 +1,88 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Александр Метлицкий" />
+<title>Site-Summary</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<div id="header">
+    <h1>Резюме</h1>
+<div id="options">
+	<a href="javascript:parentAccordion.pr(1)">Развернуть все</a> | <a href="javascript:parentAccordion.pr(-1)">Свернуть все</a>
+</div>
+</div>
+<div id="base">
+<ul class="acc" id="acc">
+	<li>
+		<h3>Общие вопросы:</h3>
+		<div class="acc-section">
+			<div class="acc-content">
+                <p class=question>1. Фамилия, имя, отчество:</p>
+                <p class=answer>Метлицкий Александр Анатольевич</p>
+                <p class=question>2. Год рождения:</p>
+                <p class=answer>1992</p>
+                <p class=question>3. Город, в котором живёте:</p>
+                <p class=answer>Севастополь</p>
+                <p class=question>4. Вуз, факультет, специальность, кафедра:</p>
+                <p class=answer>Севастопольский национальный технический университет, Автоматики и вычислительной техники,
+                    Инженер системотехник,Кибернетики и вычислительной техники</p>
+                <p class=question>5. Год окончания вуза:</p>
+                <p class=answer>2013</p>
+                <p class=question>6. Уровень владения английским языком:</p>
+                <p class=answer>Со словарем</p>
+                <p class=question>7. Чего вы ожидаете от участия в Школе?</p>
+                <p class=answer>Получить проффесиональные навыки в сфере Web</p>
+                <p class=question>8. Откуда вы о нас узнали?</p>
+                <p class=answer>Осведомил декан</p>
+                <p class=question>9. Сколько времени вы готовы уделять стажировке или работе в Яндексе?</p>
+                <p class=answer>5-6 часов в сутки</p>
+            </div>
+		</div>
+	</li>
+    <li>
+		<h3>Опыт разработки:</h3>
+		<div class="acc-section">
+			<div class="acc-content">
+                <p class=question>1. Расскажите нам о вашем опыте разработки. Ничего не упускайте:
+                    это может быть как серьезный интерфейс, так и просто домашняя страничка.</p>
+                <p class=answer>В основном пишу консольные программы, но оформлению отдаю не малую часть времени работы.
+                    Что касаемо сайтов, то было написано несколько экземпляров, включая подключение БД, втом числе,
+                    и разработка для технолгической  практики.</p>
+                <p class=question>2. Какие языки программирования, фреймворки и технологии вы использовали?
+                    Сложились ли у вас личные предпочтения?</p>
+                <p class=answer>Низкоуровневые: Ассемлер на базе процессора Intel 8086, микроконтролера AT90CAN128;
+                    СИ. Высокоуровневые: Java,
+                    знаком с С++, Pascal. Web: HTML, CSS, JavaScript, PHP.</p>
+                <p class=question>3. С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</p>
+                <p class=answer>Eclipse - для Java и Си. Delphi. Microsoft Visual Studio 2010 С++. WebStorm.
+                    В основном пользуюсь Eclipse и WebStorm.</p>
+                <p class=question>4. С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?</p>
+                <p class=answer>Microsoft Windows XP, 7, 8 - для простого пользования. Ubuntu - для программирования
+                    на языке Си. FreeBSD - для сервера.</p>
+                <p class=question>5. Приходилось ли вам работать с системами контроля версий? С какими?
+                    Какая из них вам нравится больше всего?</p>
+                <p class=answer>К сожалению не приходилось.</p>
+                <p class=question>6. Использовали ли вы системы постановки и ведения задач?</p>
+                <p class=answer>Использую в крупных проектах.</p>
+                <p class=question>7. Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы
+                    посоветовать?</p>
+                <p class=answer>Не сталкивался с удаленным сотрудничеством</p>
+                <p class=question>8. Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?</p>
+                <p class=answer> Имел практику работы (работал неофициально)<br>
+                /март 2010- июнь 2012/ ЧП Гусаков. Интернет-провайдер. Системный администратор.<br>
+                /июнь 2102 - август 2012/ ЧП Передов. СТО. Кузовные работы.<br>
+                Опыт работы в команде: Работал в команде, разработчиком сервера для интернет-провайдера.
+                </p>
+            </div>
+		</div>
+	</li>
+</ul>
+</div>
+<script type="text/javascript">
+var parentAccordion=new TINY.accordion.slider("parentAccordion");
+parentAccordion.init("acc","h3",false,0);
+</script>
+</body>
+</html>
